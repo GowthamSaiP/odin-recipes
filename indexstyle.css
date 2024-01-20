@@ -1,0 +1,19 @@
+* {
+    background-color: rgb(74, 71, 219);
+    text-align: center;
+}
+h1 {
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: red;
+    background-color: aliceblue;
+}
+ol li {
+    color: yellow;
+    display: inline-block;
+    font-size: 32px;
+    text-align: left;
+}
+
+
