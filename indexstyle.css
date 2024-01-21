@@ -1,6 +1,9 @@
 * {
     background-color: rgb(74, 71, 219);
-    text-align: center;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
 }
 h1 {
     font-family: Tahoma, Verdana, Geneva, sans-serif;
@@ -8,12 +11,23 @@ h1 {
     font-weight: bold;
     color: red;
     background-color: aliceblue;
+    margin:20px auto;
+    text-align: center;
+    height: max-content;
+    width: fit-content;
+    margin-bottom: 30px;
 }
-ol li {
-    color: yellow;
-    display: inline-block;
-    font-size: 32px;
-    text-align: left;
+ol.options {
+    display: table;
+    margin: 0% auto;
+    list-style-type: none;
 }
+a {
+    display: block; height: 100; width: 100;
+    color: yellow; font-size: 38px; text-decoration: none;
+    margin-bottom: 10px; padding: 10px;
+    background-color: grey; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 
